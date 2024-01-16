@@ -1,7 +1,8 @@
 /**
  * @license MIT
- * @author codewithsadee <mhmdzaky.me@gmail.com>
- * @copyright dzakyabdurhmn 2024
+ * @author codewithsadee <mohammadsadee24@gmail.com>
+ * @copyright codewithsadee 2023
  */
 
-"use strict";
+
+'use strict';
