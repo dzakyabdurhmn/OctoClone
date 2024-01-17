@@ -50,6 +50,77 @@
       - #SKIP TO CONTENT
      -->
 
-    <a href="#main" class="skip-to-content">Skip to conteny</a>
+    <a href="#main" class="skip-to-content">Skip to content</a>
+
+    <!-- 
+      - #HEADER
+     -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="/" class="logo">
+          <span class="text-primary">Git</span>Finder
+        </a>
+        <div class="header-search">
+          <button
+            class="icon-btn search-toggler"
+            aria-controls="searchBox"
+            aria-expanded="false"
+            aria-label="Tonggle search"
+            data-search-tonggler
+          >
+            <span
+              class="material-symbols-rounded search-icon"
+              aria-hidden="true"
+              >search</span
+            >
+
+            <span class="material-symbols-rounded close-icon" aria-hidden="true"
+              >arrow_back</span
+            >
+          </button>
+
+          <div class="search-box" id="searchBox">
+            <span
+              class="material-symbols-rounded leading-icon"
+              aria-hidden="true"
+              >search</span
+            >
+            <input
+              type="search"
+              name="search"
+              aria-label="search-github username"
+              placeholder="search username"
+              class="search-field label-1"
+              data-search-field
+            />
+            <button
+              class="search-btn"
+              aria-label="search submit"
+              data-search-submit
+            >
+              <span class="material-symbols-rounded" aria-hidden="true"
+                >search</span
+              >
+              <span class="label-1"> Search </span>
+            </button>
+          </div>
+        </div>
+        <button
+          class="icon-btn theme-btn"
+          aria-pressed="false"
+          aria-label="Tonggle dark and light"
+          data-theme-btn
+        >
+          <span class="material-symbols-rounded sun-icon" aria-hidden="true"
+            >light_mode</span
+          >
+
+          <span class="material-symbols-rounded moon-icon" aria-hidden="true"
+            >dark_mode</span
+          >
+        </button>
+      </div>
+    </header>
   </body>
 </html>
